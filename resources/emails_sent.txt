@@ -1,0 +1,29 @@
+Date: Sun May 08 00:16:28 IST 2016
+To: admin1@prancingpony.me
+From: admin@prancingpony.me
+Subject: Reset password request
+Body: Hello  Admin Strator,
+
+You (or someone pretending to be you) requested a password reset of your account.
+
+You may reset your password from the following link:
+
+http://www.yourcompany.com/jbilling/resetPassword/changePassword?token=qtv6t2FMlcPD9o3JThB18NlQh1yIgw9e
+
+Admin:	Prancing Pony
+Attachement: null
+        ----------------------        
+Date: Sun May 08 00:28:34 IST 2016
+To: frodo10743@shire.com
+From: admin@prancingpony.me
+Subject: 
+Body: 
+Attachement: C:\Work\BIL\GIT_REPO\billing\resources\notifications\carry-over-test1\Invoice-1900.pdf
+        ----------------------        
+Date: Sun May 08 00:33:13 IST 2016
+To: frodo10743@shire.com
+From: admin@prancingpony.me
+Subject: 
+Body: 
+Attachement: C:\Work\BIL\GIT_REPO\billing\resources\notifications\carry-over-test1\Invoice-1900.pdf
+        ----------------------        
