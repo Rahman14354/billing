@@ -1,0 +1,29 @@
+
+import org.codehaus.groovy.grails.orm.hibernate.cfg.GrailsAnnotationConfiguration
+
+def dbUser = System.getenv("JBILLING_DB_USER") ?: "bbdgjvxbhmhriq"
+def dbName = System.getenv("JBILLING_DB_NAME") ?: "ddtiiluai95khb"
+def dbHost = System.getenv("JBILLING_DB_HOST") ?: "ec2-50-17-249-147.compute-1.amazonaws.com"
+
+dataSource {
+
+    dialect = "org.hibernate.dialect.PostgreSQLDialect"
+    driverClassName = "org.postgresql.Driver"
+    username = dbUser
+    password = "GH8RgHDkKnbXTLxawWtojB5MoV"
+    url = "jdbc:postgresql://${dbHost}:5432/${dbName}?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory"
+
+    pooled = true
+    configClass = GrailsAnnotationConfiguration.class
+}
+
+hibernate {
+    cache.use_second_level_cache = true
+    cache.use_query_cache = true
+    cache.region.factory_class = 'net.sf.ehcache.hibernate.EhCacheRegionFactory'
+}
+
+environments {
+    development {
+    }
+}

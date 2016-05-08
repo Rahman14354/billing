@@ -247,11 +247,6 @@
         </sec:ifAnyGranted>
 
         <li>
-            <a href="http://www.jbilling.com/professional-services/training" class="training">
-                <g:message code="topnav.link.training"/>
-            </a>
-        </li>
-        <li>
             <a href="${resource(dir:'manual', file: 'index.html')}" class="help">
                 <g:message code="topnav.link.help"/>
             </a>

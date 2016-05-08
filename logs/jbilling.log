@@ -1353,3 +1353,1013 @@ Cause :java.lang.NullPointerException: Cannot invoke method trim() on null objec
 2016-05-08 00:54:04,299 2839354 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.TabConfigurationTab
 2016-05-08 00:54:04,303 2839358 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.TabConfigurationTab
 2016-05-08 00:54:04,349 2839404 INFO  [org.apache.activemq.broker.BrokerService] (ActiveMQ ShutdownHook:) ActiveMQ JMS Message Broker (localhost, ID:SR186001-PC-57655-1462646249223-0:0) stopped
+2016-05-08 01:20:49,507 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 01:20:49,547 40    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 01:20:52,051 2544  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 01:20:52,062 2555  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 09:08:55,413 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 09:08:55,446 33    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 09:08:56,920 1507  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 09:08:56,928 1515  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 09:09:00,229 4816  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-08 09:09:00,464 5051  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-05-08 09:09:11,490 16077 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-05-08 09:09:11,491 16078 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-05-08 09:09:12,083 16670 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-05-08 09:09:14,584 19171 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-05-08 09:09:14,722 19309 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-05-08 09:09:15,088 19675 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge8sh9g13ivamf1pnmub9|2387a0f0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge8sh9g13ivamf1pnmub9|2387a0f0, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://ec2-50-17-249-147.compute-1.amazonaws.com:5432/ddtiiluai95khb?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-05-08 09:09:21,362 25949 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\SR186001\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-05-08 09:09:21,364 25951 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: C:\Work\BIL\GIT_REPO\billing\resources\
+2016-05-08 09:09:51,021 55608 ERROR [org.apache.tomcat.jdbc.pool.ConnectionPool] (localhost-startStop-1:) Unable to create initial connections of pool.
+org.postgresql.util.PSQLException: FATAL: too many connections for role "bbdgjvxbhmhriq"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:582)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:185)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:144)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:280)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy.afterPropertiesSet(LazyConnectionDataSourceProxy.java:162)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy.<init>(LazyConnectionDataSourceProxy.java:106)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:125)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.initializeContext(GrailsRuntimeConfigurator.java:188)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:168)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:126)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:109)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4739)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5159)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1388)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-08 09:10:09,400 73987 ERROR [org.apache.tomcat.jdbc.pool.ConnectionPool] (localhost-startStop-1:) Unable to create initial connections of pool.
+org.postgresql.util.PSQLException: FATAL: too many connections for role "bbdgjvxbhmhriq"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:582)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:185)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:144)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:280)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy.afterPropertiesSet(LazyConnectionDataSourceProxy.java:162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.initializeContext(GrailsRuntimeConfigurator.java:188)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:168)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:126)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:109)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4739)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5159)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1388)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-08 09:10:30,694 95281 ERROR [org.apache.tomcat.jdbc.pool.ConnectionPool] (localhost-startStop-1:) Unable to create initial connections of pool.
+org.postgresql.util.PSQLException: FATAL: too many connections for role "bbdgjvxbhmhriq"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:582)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:185)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:144)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:280)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.codehaus.groovy.grails.plugins.datasource.TomcatJDBCPoolMBeanExporter.isJmxEnabled(TomcatJDBCPoolMBeanExporter.groovy:51)
+	at org.codehaus.groovy.grails.plugins.datasource.TomcatJDBCPoolMBeanExporter.registerBeans(TomcatJDBCPoolMBeanExporter.groovy:34)
+	at org.springframework.jmx.export.MBeanExporter.afterPropertiesSet(MBeanExporter.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.initializeContext(GrailsRuntimeConfigurator.java:188)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:168)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:126)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:109)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4739)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5159)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1388)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-08 09:10:32,365 96952 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Successfully deleted temporary storage
+2016-05-08 09:10:32,384 96971 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Using Persistence Adapter: AMQPersistenceAdapter(activemq-data\localhost)
+2016-05-08 09:10:32,388 96975 INFO  [org.apache.activemq.broker.jmx.ManagementContext] (JMX connector:) JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2016-05-08 09:10:32,389 96976 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) AMQStore starting using directory: activemq-data\localhost
+2016-05-08 09:10:32,428 97015 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\state
+2016-05-08 09:10:32,494 97081 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Active data files: []
+2016-05-08 09:10:32,641 97228 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+2016-05-08 09:10:32,643 97230 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) For help or more information please see: http://activemq.apache.org/
+2016-05-08 09:10:32,839 97426 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\data
+2016-05-08 09:10:32,967 97554 INFO  [org.apache.activemq.transport.TransportServerThreadSupport] (localhost-startStop-1:) Listening for connections at: tcp://127.0.0.1:61616
+2016-05-08 09:10:32,968 97555 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector tcp://localhost:61616 Started
+2016-05-08 09:10:32,975 97562 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector vm://localhost Started
+2016-05-08 09:10:32,978 97565 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ JMS Message Broker (localhost, ID:SR186001-PC-62666-1462678832685-0:0) started
+2016-05-08 09:10:34,142 98729 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Performing a full reload
+2016-05-08 09:10:34,508 99095 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Loading resource declarations...
+2016-05-08 09:10:34,508 99095 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known modules...
+2016-05-08 09:10:34,510 99097 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known resources...
+2016-05-08 09:10:35,824 100411 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css served by /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css (delegate: none)
+2016-05-08 09:10:36,299 100886 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/all.css served by /css/all.css (delegate: none)
+2016-05-08 09:10:37,166 101753 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/lt7.css served by /css/lt7.css (delegate: none)
+2016-05-08 09:10:37,593 102180 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/ict.css served by /css/ict.css (delegate: none)
+2016-05-08 09:10:37,632 102219 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca.min.css served by /css/alpaca.min.css (delegate: none)
+2016-05-08 09:10:37,659 102246 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca-jqueryui.min.css served by /css/alpaca-jqueryui.min.css (delegate: none)
+2016-05-08 09:10:37,684 102271 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/evol.colorpicker.css served by /css/evol.colorpicker.css (delegate: none)
+2016-05-08 09:10:37,710 102297 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/jstree/invoice-template-tree.css served by /css/jstree/invoice-template-tree.css (delegate: none)
+2016-05-08 09:10:37,874 102461 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor skipping ResourceMeta for URI /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css served by /bundle-bundle_itg_head.css (delegate: none) because it is aggregated (already processed each file in it)
+2016-05-08 09:10:38,097 102684 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/down.png
+2016-05-08 09:10:38,128 102715 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/down.png]
+2016-05-08 09:10:38,131 102718 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/down.png
+2016-05-08 09:10:38,309 102896 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/left.png
+2016-05-08 09:10:38,310 102897 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/left.png]
+2016-05-08 09:10:38,311 102898 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/left.png
+2016-05-08 09:10:38,574 103161 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Finished full reload
+2016-05-08 09:10:42,490 107077 INFO  [org.codehaus.groovy.grails.web.context.GrailsConfigUtils] (localhost-startStop-1:) [GrailsContextLoader] Grails application loaded.
+2016-05-08 09:10:42,941 107528 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Using default implementation for ThreadExecutor
+2016-05-08 09:10:42,947 107534 INFO  [org.quartz.simpl.SimpleThreadPool] (localhost-startStop-1:) Job execution threads will use class loader of thread: localhost-startStop-1
+2016-05-08 09:10:42,971 107558 INFO  [org.quartz.core.SchedulerSignalerImpl] (localhost-startStop-1:) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-05-08 09:10:42,972 107559 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Quartz Scheduler v.2.2.1 created.
+2016-05-08 09:10:42,974 107561 INFO  [org.quartz.simpl.RAMJobStore] (localhost-startStop-1:) RAMJobStore initialized.
+2016-05-08 09:10:42,977 107564 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-05-08 09:10:42,996 107583 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-05-08 09:10:42,999 107586 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler version: 2.2.1
+2016-05-08 09:10:43,410 107997 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 09:10:44,805 109392 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 2
+2016-05-08 09:10:44,805 109392 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 2 scheduled tasks for entity 3
+2016-05-08 09:10:44,805 109392 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 09:10:44,805 109392 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 09:10:44,837 109424 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process from jbilling.properties ...
+2016-05-08 09:10:44,837 109424 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process from jbilling.properties ...
+2016-05-08 09:10:44,837 109424 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [billing process: , entity id 3, taskId 6119]
+2016-05-08 09:10:44,837 109424 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 09:10:44,841 109428 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 09:10:44,841 109428 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 09:10:44,841 109428 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 09:10:44,842 109429 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [ageing process: , entity id 3, taskId 6120]
+2016-05-08 09:10:44,842 109429 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 09:10:45,100 109687 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 0
+2016-05-08 09:10:45,100 109687 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 0 scheduled tasks for entity 2
+2016-05-08 09:10:45,100 109687 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 09:10:45,604 110191 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 0
+2016-05-08 09:10:45,604 110191 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 0 scheduled tasks for entity 4
+2016-05-08 09:10:45,605 110192 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 09:10:47,462 112049 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 4
+2016-05-08 09:10:47,462 112049 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 4 scheduled tasks for entity 1
+2016-05-08 09:10:47,462 112049 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 09:10:47,462 112049 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 09:10:47,472 112059 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process using plug-in parameters ...
+2016-05-08 09:10:47,472 112059 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process using plug-in parameters ...
+2016-05-08 09:10:47,472 112059 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [billing process: , entity id 1, taskId 6050]
+2016-05-08 09:10:47,472 112059 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 09:10:47,472 112059 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 09:10:47,472 112059 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 09:10:47,473 112060 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 09:10:47,473 112060 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [ageing process: , entity id 1, taskId 6061]
+2016-05-08 09:10:47,473 112060 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.pluggableTask.FileCleanupTask
+2016-05-08 09:10:47,487 112074 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.pluggableTask.FileCleanupTask
+2016-05-08 09:10:47,500 112087 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [FileCleanupTask]
+2016-05-08 09:10:47,500 112087 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.order.task.OrderChangeUpdateTask
+2016-05-08 09:10:47,504 112091 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.order.task.OrderChangeUpdateTask
+2016-05-08 09:10:47,505 112092 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [order change update task , entity id 1, taskId 6125]
+2016-05-08 09:10:47,516 112103 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-08 09:10:48,494 113081 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (localhost-startStop-1:) Creating Service {http://jbilling/}MigrationServiceService from class jbilling.MigrationService
+2016-05-08 09:10:50,106 114693 INFO  [org.apache.cxf.endpoint.ServerImpl] (localhost-startStop-1:) Setting the server's publish address to be /migration
+2016-05-08 09:10:50,145 114732 INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Starting ProtocolHandler ["http-nio-8080"]
+2016-05-08 09:14:28,169 332756 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 53, for entity 3 and table entity
+2016-05-08 09:14:28,443 333030 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 09:14:35,378 339965 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-7:) Looking for preference 53, for entity 1 and table entity
+2016-05-08 09:14:35,674 340261 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-7:) preferenceValue : |0|
+2016-05-08 09:14:46,703 351290 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Looking for preference 53, for entity 1 and table entity
+2016-05-08 09:14:46,703 351290 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:14:46,703 351290 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-8:) preferenceValue : |0|
+2016-05-08 09:14:48,163 352750 DEBUG [com.sapienter.jbilling.server.util.api.APILogger] (http-nio-8080-exec-8:) Call to resetPassword parameters: [1]
+2016-05-08 09:14:50,481 355068 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (http-nio-8080-exec-8:) Retvalue >>>> language = null type = null use = null content = 
+2016-05-08 09:14:51,032 355619 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (http-nio-8080-exec-8:) Entering notify()
+2016-05-08 09:14:51,450 356037 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (http-nio-8080-exec-8:) Entering notify()
+2016-05-08 09:14:51,450 356037 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (http-nio-8080-exec-8:) Entering notify with message
+2016-05-08 09:14:51,862 356449 DEBUG [com.sapienter.jbilling.server.util.api.APIStopWatchAspect] (http-nio-8080-exec-8:) WebServicesSessionSpringBean.resetPassword took: 3668 ms.
+2016-05-08 09:14:51,863 356450 DEBUG [com.sapienter.jbilling.server.util.api.APILogger] (http-nio-8080-exec-8:) Done call to resetPassword returning: null
+2016-05-08 09:14:51,903 356490 DEBUG [com.sapienter.jbilling.server.notification.NotificationMDB] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Received a notification message: 
+2016-05-08 09:14:51,956 356543 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Entering notify()
+2016-05-08 09:14:51,958 356545 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Entering notify()
+2016-05-08 09:14:53,473 358060 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Entered PluggableTaskManager
+2016-05-08 09:14:54,871 359458 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) total classes = 2
+2016-05-08 09:14:54,871 359458 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Applying task com.sapienter.jbilling.server.notification.task.TestNotificationTask
+2016-05-08 09:14:54,882 359469 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Creating a new instance of com.sapienter.jbilling.server.notification.task.TestNotificationTask
+2016-05-08 09:14:55,934 360521 DEBUG [com.sapienter.jbilling.server.notification.NotificationSessionBean] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Sending notification to user : admin
+2016-05-08 09:14:56,276 360863 DEBUG [com.sapienter.jbilling.server.notification.task.TestNotificationTask] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Sent test notification to 1
+2016-05-08 09:14:56,276 360863 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Applying task com.sapienter.jbilling.server.pluggableTask.PaperInvoiceNotificationTask
+2016-05-08 09:14:56,280 360867 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (org.springframework.jms.listener.DefaultMessageListenerContainer#1-1:) Creating a new instance of com.sapienter.jbilling.server.pluggableTask.PaperInvoiceNotificationTask
+2016-05-08 09:16:01,554 426141 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 71, for entity 1 and table entity
+2016-05-08 09:16:01,555 426142 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:16:01,555 426142 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |24|
+2016-05-08 09:16:28,051 452638 DEBUG [com.sapienter.jbilling.server.util.api.APILogger] (http-nio-8080-exec-9:) Call to getUserWS parameters: [1]
+2016-05-08 09:16:29,890 454477 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-9:) Looking for table + user_status
+2016-05-08 09:16:30,693 455280 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-9:) Looking for table + subscriber_status
+2016-05-08 09:16:31,466 456053 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-9:) Looking for table + role
+2016-05-08 09:16:33,514 458101 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-9:) Looking for table + currency
+2016-05-08 09:16:34,564 459151 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 43, for entity 1 and table entity
+2016-05-08 09:16:34,564 459151 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:16:34,564 459151 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |460|
+2016-05-08 09:16:34,566 459153 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 43, for entity 1 and table entity
+2016-05-08 09:16:34,566 459153 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:16:34,566 459153 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |460|
+2016-05-08 09:16:34,880 459467 DEBUG [com.sapienter.jbilling.server.payment.tasks.PaymentFilterTask] (http-nio-8080-exec-9:) UserIdFilter enabled
+2016-05-08 09:16:34,887 459474 DEBUG [com.sapienter.jbilling.server.payment.tasks.PaymentFilterTask] (http-nio-8080-exec-9:) NameFilter enabled
+2016-05-08 09:16:34,895 459482 DEBUG [com.sapienter.jbilling.server.payment.tasks.PaymentFilterTask] (http-nio-8080-exec-9:) CreditCardFilter enabled
+2016-05-08 09:16:34,900 459487 DEBUG [com.sapienter.jbilling.server.payment.tasks.PaymentFilterTask] (http-nio-8080-exec-9:) AddressFilter enabled
+2016-05-08 09:16:34,904 459491 DEBUG [com.sapienter.jbilling.server.payment.tasks.PaymentFilterTask] (http-nio-8080-exec-9:) IpAddressFilter enabled
+2016-05-08 09:16:34,908 459495 DEBUG [com.sapienter.jbilling.server.payment.tasks.PaymentFilterTask] (http-nio-8080-exec-9:) PhoneFilter enabled
+2016-05-08 09:16:38,194 462781 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 1 is 0
+2016-05-08 09:16:38,466 463053 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 70, for entity 1 and table entity
+2016-05-08 09:16:39,015 463602 DEBUG [com.sapienter.jbilling.server.user.UserBL] (http-nio-8080-exec-9:) Exception while reading preference
+2016-05-08 09:16:39,545 464132 DEBUG [com.sapienter.jbilling.server.util.api.APIStopWatchAspect] (http-nio-8080-exec-9:) WebServicesSessionSpringBean.getUserWS took: 11491 ms.
+2016-05-08 09:16:39,547 464134 DEBUG [com.sapienter.jbilling.server.util.api.APILogger] (http-nio-8080-exec-9:) Done call to getUserWS returning: , autoRecharge=null, automaticPaymentType=null, blacklistMatches=[], childIds=null, companyName=Prancing Pony, contact=ContactWS{id=2, title='null', lastName='Strator', firstName='Admin', initial='null', organization='Prancing Pony', address1='1234 Great East Road', address2='', city='Bree', stateProvince='Middle Earth', postalCode='54321', countryCode='CA', phone='123321-1234', fax='', email='admin1@prancingpony.me', include='true'}, createDatetime=2007-03-18 00:00:00.0, creditLimit=null, currencyId=1, customerId=null, deleted=0, dueDateUnitId=null, dueDateValue=null, dynamicBalance=null, excludeAgeing=null, failedAttempts=0, id=1, invoiceChild=null, invoiceDeliveryMethodId=null, isParent=null, language=English, languageId=1, lastLogin=2010-05-25 12:27:12.217, lastStatusChange=null, mainRoleId=2, nextInvoiceDate=null, notes=null, owingBalance=0E-10, parentId=null, partnerId=null, role=Super user, status=Active, statusId=1, subscriberStatusId=1, userIdBlacklisted=false, userName=admin, accountTypeId=null, invoiceDesign=null, userCodeLink=null, isAccountLocked=false, accountExpired=false, accountDisabledDate=null]
+2016-05-08 09:16:40,267 464854 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-9:) Looking for table + base_user
+2016-05-08 09:17:00,274 484861 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-2:) Request is to process authentication
+2016-05-08 09:17:06,179 490766 DEBUG [com.sapienter.jbilling.client.authentication.util.SecuritySession] (http-nio-8080-exec-2:) Setting locale for Spring contexts: en_CA
+2016-05-08 09:17:06,180 490767 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-2:) Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@adb057c9: Principal: CompanyUserDetails{id=1, username='admin;1', mainRoleId=2, companyId=1, currencyId=1, languageId=1, enabled=true, accountExpired=false, credentialsExpired=false, accountLocked=false}; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: A9D35B7AF86CB2DEE9CFCCF1D37F0C18; Granted Authorities: ROLE_SUPER_USER
+2016-05-08 09:17:08,660 493247 INFO  [grails.app.controllers.jbilling.PluginController] (http-nio-8080-exec-10:) entityId=1
+2016-05-08 09:17:08,662 493249 INFO  [grails.app.controllers.jbilling.PluginController] (http-nio-8080-exec-10:) selected 18
+2016-05-08 09:17:08,663 493250 INFO  [grails.app.controllers.jbilling.PluginController] (http-nio-8080-exec-10:) Category Id selected=18
+2016-05-08 09:17:09,194 493781 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 09:17:09,194 493781 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:17:09,194 493781 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |0|
+2016-05-08 09:17:09,585 494172 INFO  [grails.app.controllers.jbilling.PluginController] (http-nio-8080-exec-10:) number of plug-ins=0
+2016-05-08 09:17:10,620 495207 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 09:17:10,620 495207 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:17:10,620 495207 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |0|
+2016-05-08 09:17:11,350 495937 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 09:17:11,350 495937 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:17:11,350 495937 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |0|
+2016-05-08 09:17:11,414 496001 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 09:17:11,414 496001 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:17:11,414 496001 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |0|
+2016-05-08 09:17:12,484 497071 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-10:) Looking for table + pluggable_task_type_category
+2016-05-08 09:17:24,053 508640 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-10:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-05-08 09:17:39,397 523984 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 09:17:39,398 523985 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:17:39,398 523985 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |0|
+2016-05-08 09:17:47,849 532436 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 09:17:47,849 532436 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:17:47,849 532436 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |0|
+2016-05-08 09:17:48,856 533443 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 09:17:48,856 533443 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:17:48,856 533443 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |0|
+2016-05-08 09:17:48,928 533515 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 09:17:48,928 533515 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 09:17:48,928 533515 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |0|
+2016-05-08 09:17:56,141 540728 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-9:) Invocation of <r:resource> for a resource that apparently doesn't exist: /jbilling/manual/index.html
+2016-05-08 09:19:21,759 626346 INFO  [org.apache.activemq.broker.BrokerService] (ActiveMQ ShutdownHook:) ActiveMQ Message Broker (localhost, ID:SR186001-PC-62666-1462678832685-0:0) is shutting down
+2016-05-08 09:19:21,805 626392 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property staticGormStaticApi in jbilling.Breadcrumb
+2016-05-08 09:19:21,807 626394 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormInstanceApi in jbilling.Breadcrumb
+2016-05-08 09:19:21,807 626394 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormValidationApi in jbilling.Breadcrumb
+2016-05-08 09:19:21,808 626395 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormValidationApi in jbilling.Filter
+2016-05-08 09:19:21,808 626395 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property staticGormStaticApi in jbilling.Filter
+2016-05-08 09:19:21,808 626395 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormInstanceApi in jbilling.Filter
+2016-05-08 09:19:21,809 626396 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property staticGormStaticApi in jbilling.FilterSet
+2016-05-08 09:19:21,809 626396 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormInstanceApi in jbilling.FilterSet
+2016-05-08 09:19:21,809 626396 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormValidationApi in jbilling.FilterSet
+2016-05-08 09:19:21,810 626397 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property staticGormStaticApi in jbilling.RecentItem
+2016-05-08 09:19:21,810 626397 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormInstanceApi in jbilling.RecentItem
+2016-05-08 09:19:21,810 626397 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormValidationApi in jbilling.RecentItem
+2016-05-08 09:19:21,811 626398 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property staticGormStaticApi in jbilling.Shortcut
+2016-05-08 09:19:21,812 626399 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormInstanceApi in jbilling.Shortcut
+2016-05-08 09:19:21,812 626399 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormValidationApi in jbilling.Shortcut
+2016-05-08 09:19:21,813 626400 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property staticGormStaticApi in jbilling.Tab
+2016-05-08 09:19:21,813 626400 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormInstanceApi in jbilling.Tab
+2016-05-08 09:19:21,813 626400 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormValidationApi in jbilling.Tab
+2016-05-08 09:19:21,814 626401 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property staticGormStaticApi in jbilling.TabConfiguration
+2016-05-08 09:19:21,814 626401 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormInstanceApi in jbilling.TabConfiguration
+2016-05-08 09:19:21,814 626401 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormValidationApi in jbilling.TabConfiguration
+2016-05-08 09:19:21,815 626402 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property staticGormStaticApi in jbilling.TabConfigurationTab
+2016-05-08 09:19:21,815 626402 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormInstanceApi in jbilling.TabConfigurationTab
+2016-05-08 09:19:21,815 626402 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-15:) Clearing static property instanceGormValidationApi in jbilling.TabConfigurationTab
+2016-05-08 09:19:22,980 627567 INFO  [org.apache.activemq.broker.BrokerService] (Thread-15:) ActiveMQ Message Broker (localhost, ID:SR186001-PC-62666-1462678832685-0:0) is shutting down
+2016-05-08 09:19:22,980 627567 INFO  [org.apache.activemq.broker.TransportConnector] (Thread-15:) Connector tcp://localhost:61616 Stopped
+2016-05-08 09:19:22,984 627571 INFO  [org.apache.activemq.kaha.impl.KahaStore] (ActiveMQ Task:) Kaha Store using data directory activemq-data\localhost\tmp_storage
+2016-05-08 09:19:22,990 627577 INFO  [org.apache.activemq.broker.TransportConnector] (Thread-15:) Connector vm://localhost Stopped
+2016-05-08 09:19:23,032 627619 INFO  [org.apache.activemq.broker.TransportConnector] (ActiveMQ ShutdownHook:) Connector tcp://localhost:61616 Stopped
+2016-05-08 09:19:23,038 627625 INFO  [org.apache.activemq.broker.TransportConnector] (ActiveMQ ShutdownHook:) Connector vm://localhost Stopped
+2016-05-08 09:19:23,103 627690 INFO  [org.apache.activemq.broker.BrokerService] (ActiveMQ ShutdownHook:) ActiveMQ JMS Message Broker (localhost, ID:SR186001-PC-62666-1462678832685-0:0) stopped
+2016-05-08 09:19:23,198 627785 INFO  [org.apache.activemq.broker.BrokerService] (Thread-15:) ActiveMQ JMS Message Broker (localhost, ID:SR186001-PC-62666-1462678832685-0:0) stopped
+2016-05-08 09:20:43,548 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 09:20:43,576 28    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 09:20:44,966 1418  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 09:20:44,982 1434  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 10:05:52,325 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 10:05:52,363 38    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 10:05:53,952 1627  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 10:05:53,961 1636  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 10:05:55,012 2687  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-08 10:05:55,111 2786  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-05-08 10:06:06,345 14020 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-05-08 10:06:06,346 14021 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-05-08 10:06:07,108 14783 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-05-08 10:06:09,872 17547 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-05-08 10:06:09,994 17669 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-05-08 10:06:10,321 17996 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge8sh9g13kwhv91crbfcm|29d3ad05, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge8sh9g13kwhv91crbfcm|29d3ad05, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://ec2-50-17-249-147.compute-1.amazonaws.com:5432/ddtiiluai95khb?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-05-08 10:06:17,394 25069 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\SR186001\.grails\2.4.3\projects\jbilling-community-4.1.1\resources\jbilling.properties
+2016-05-08 10:06:17,398 25073 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: C:\Work\BIL\GIT_REPO\billing\resources\
+2016-05-08 10:06:47,085 54760 ERROR [org.apache.tomcat.jdbc.pool.ConnectionPool] (localhost-startStop-1:) Unable to create initial connections of pool.
+org.postgresql.util.PSQLException: FATAL: too many connections for role "bbdgjvxbhmhriq"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:582)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:185)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:144)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:280)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy.afterPropertiesSet(LazyConnectionDataSourceProxy.java:162)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy.<init>(LazyConnectionDataSourceProxy.java:106)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:125)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1017)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.initializeContext(GrailsRuntimeConfigurator.java:188)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:168)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:126)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:109)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4739)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5159)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1388)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-08 10:07:05,267 72942 ERROR [org.apache.tomcat.jdbc.pool.ConnectionPool] (localhost-startStop-1:) Unable to create initial connections of pool.
+org.postgresql.util.PSQLException: FATAL: too many connections for role "bbdgjvxbhmhriq"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:582)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:185)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:144)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:280)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:701)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:635)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:486)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:144)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy.afterPropertiesSet(LazyConnectionDataSourceProxy.java:162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.initializeContext(GrailsRuntimeConfigurator.java:188)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:168)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:126)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:109)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4739)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5159)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1388)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-08 11:47:39,240 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 11:47:39,282 42    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 11:47:42,128 2888  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 11:47:42,137 2897  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 11:47:44,669 5429  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-08 11:47:44,896 5656  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-05-08 11:47:58,184 18944 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-05-08 11:47:58,185 18945 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-05-08 11:47:59,563 20323 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-05-08 11:48:03,838 24598 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-05-08 11:48:04,110 24870 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-05-08 11:48:04,766 25526 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge8sh9g13ojjgy1vps025|56bc98ee, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge8sh9g13ojjgy1vps025|56bc98ee, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-05-08 11:48:11,283 32043 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\SR186001\.grails\2.4.3\projects\EzyBillng-community-4.1.1\resources\jbilling.properties
+2016-05-08 11:48:11,285 32045 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: C:\Work\BIL\GIT_REPO\billing\resources\
+2016-05-08 11:48:34,410 55170 INFO  [org.apache.activemq.broker.jmx.ManagementContext] (JMX connector:) JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2016-05-08 11:48:34,472 55232 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Successfully deleted temporary storage
+2016-05-08 11:48:34,513 55273 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Using Persistence Adapter: AMQPersistenceAdapter(activemq-data\localhost)
+2016-05-08 11:48:34,517 55277 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) AMQStore starting using directory: activemq-data\localhost
+2016-05-08 11:48:34,572 55332 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\state
+2016-05-08 11:48:34,728 55488 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Active data files: []
+2016-05-08 11:48:34,830 55590 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+2016-05-08 11:48:34,831 55591 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) For help or more information please see: http://activemq.apache.org/
+2016-05-08 11:48:35,143 55903 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\data
+2016-05-08 11:48:35,422 56182 INFO  [org.apache.activemq.transport.TransportServerThreadSupport] (localhost-startStop-1:) Listening for connections at: tcp://127.0.0.1:61616
+2016-05-08 11:48:35,423 56183 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector tcp://localhost:61616 Started
+2016-05-08 11:48:35,439 56199 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector vm://localhost Started
+2016-05-08 11:48:35,454 56214 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ JMS Message Broker (localhost, ID:SR186001-PC-56832-1462688314907-0:0) started
+2016-05-08 11:48:37,216 57976 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Performing a full reload
+2016-05-08 11:48:37,935 58695 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Loading resource declarations...
+2016-05-08 11:48:37,936 58696 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known modules...
+2016-05-08 11:48:37,938 58698 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known resources...
+2016-05-08 11:48:39,581 60341 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css served by /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css (delegate: none)
+2016-05-08 11:48:40,098 60858 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/all.css served by /css/all.css (delegate: none)
+2016-05-08 11:48:40,993 61753 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/lt7.css served by /css/lt7.css (delegate: none)
+2016-05-08 11:48:41,485 62245 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/ict.css served by /css/ict.css (delegate: none)
+2016-05-08 11:48:41,529 62289 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca.min.css served by /css/alpaca.min.css (delegate: none)
+2016-05-08 11:48:41,563 62323 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca-jqueryui.min.css served by /css/alpaca-jqueryui.min.css (delegate: none)
+2016-05-08 11:48:41,585 62345 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/evol.colorpicker.css served by /css/evol.colorpicker.css (delegate: none)
+2016-05-08 11:48:41,609 62369 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/jstree/invoice-template-tree.css served by /css/jstree/invoice-template-tree.css (delegate: none)
+2016-05-08 11:48:41,778 62538 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor skipping ResourceMeta for URI /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css served by /bundle-bundle_itg_head.css (delegate: none) because it is aggregated (already processed each file in it)
+2016-05-08 11:48:41,988 62748 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/down.png
+2016-05-08 11:48:42,009 62769 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/down.png]
+2016-05-08 11:48:42,009 62769 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/down.png
+2016-05-08 11:48:42,174 62934 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/left.png
+2016-05-08 11:48:42,175 62935 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/left.png]
+2016-05-08 11:48:42,175 62935 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/left.png
+2016-05-08 11:48:42,351 63111 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Finished full reload
+2016-05-08 11:48:47,241 68001 INFO  [org.codehaus.groovy.grails.web.context.GrailsConfigUtils] (localhost-startStop-1:) [GrailsContextLoader] Grails application loaded.
+2016-05-08 11:48:48,116 68876 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Using default implementation for ThreadExecutor
+2016-05-08 11:48:48,153 68913 INFO  [org.quartz.simpl.SimpleThreadPool] (localhost-startStop-1:) Job execution threads will use class loader of thread: localhost-startStop-1
+2016-05-08 11:48:48,187 68947 INFO  [org.quartz.core.SchedulerSignalerImpl] (localhost-startStop-1:) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-05-08 11:48:48,188 68948 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Quartz Scheduler v.2.2.1 created.
+2016-05-08 11:48:48,191 68951 INFO  [org.quartz.simpl.RAMJobStore] (localhost-startStop-1:) RAMJobStore initialized.
+2016-05-08 11:48:48,196 68956 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-05-08 11:48:48,279 69039 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-05-08 11:48:48,283 69043 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler version: 2.2.1
+2016-05-08 11:48:48,796 69556 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 11:48:49,248 70008 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 2
+2016-05-08 11:48:49,248 70008 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 2 scheduled tasks for entity 3
+2016-05-08 11:48:49,248 70008 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 11:48:49,248 70008 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 11:48:49,351 70111 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process from jbilling.properties ...
+2016-05-08 11:48:49,351 70111 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process from jbilling.properties ...
+2016-05-08 11:48:49,351 70111 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [billing process: , entity id 3, taskId 6119]
+2016-05-08 11:48:49,351 70111 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 11:48:49,353 70113 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 11:48:49,354 70114 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 11:48:49,354 70114 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 11:48:49,354 70114 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [ageing process: , entity id 3, taskId 6120]
+2016-05-08 11:48:49,354 70114 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 11:48:49,356 70116 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 0
+2016-05-08 11:48:49,356 70116 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 0 scheduled tasks for entity 2
+2016-05-08 11:48:49,356 70116 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 11:48:49,360 70120 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 0
+2016-05-08 11:48:49,360 70120 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 0 scheduled tasks for entity 4
+2016-05-08 11:48:49,360 70120 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 11:48:49,383 70143 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 4
+2016-05-08 11:48:49,383 70143 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 4 scheduled tasks for entity 1
+2016-05-08 11:48:49,384 70144 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 11:48:49,384 70144 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process using plug-in parameters ...
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process using plug-in parameters ...
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [billing process: , entity id 1, taskId 6050]
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [ageing process: , entity id 1, taskId 6061]
+2016-05-08 11:48:49,428 70188 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.pluggableTask.FileCleanupTask
+2016-05-08 11:48:49,433 70193 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.pluggableTask.FileCleanupTask
+2016-05-08 11:48:49,553 70313 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [FileCleanupTask]
+2016-05-08 11:48:49,553 70313 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.order.task.OrderChangeUpdateTask
+2016-05-08 11:48:49,556 70316 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.order.task.OrderChangeUpdateTask
+2016-05-08 11:48:49,557 70317 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [order change update task , entity id 1, taskId 6125]
+2016-05-08 11:48:49,574 70334 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-08 11:48:51,096 71856 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (localhost-startStop-1:) Creating Service {http://jbilling/}MigrationServiceService from class jbilling.MigrationService
+2016-05-08 11:48:53,664 74424 INFO  [org.apache.cxf.endpoint.ServerImpl] (localhost-startStop-1:) Setting the server's publish address to be /migration
+2016-05-08 11:48:53,727 74487 INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Starting ProtocolHandler ["http-nio-8080"]
+2016-05-08 12:00:00,080 740840 DEBUG [com.sapienter.jbilling.server.pluggableTask.FileCleanupTask] (DefaultQuartzScheduler_Worker-1:) FileCleanupTask ... started
+2016-05-08 12:00:00,082 740842 ERROR [com.sapienter.jbilling.server.pluggableTask.FileCleanupTask] (DefaultQuartzScheduler_Worker-1:) Unable to clean up folder
+org.quartz.JobExecutionException: Parameter folder_11 not specified
+	at com.sapienter.jbilling.server.pluggableTask.FileCleanupTask.doExecute(FileCleanupTask.java:68)
+	at com.sapienter.jbilling.server.process.task.ScheduledTask.execute(ScheduledTask.java:112)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2016-05-08 12:00:00,086 740846 DEBUG [com.sapienter.jbilling.server.pluggableTask.FileCleanupTask] (DefaultQuartzScheduler_Worker-1:) FileCleanupTask ... finished
+2016-05-08 12:00:00,152 740912 INFO  [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (DefaultQuartzScheduler_Worker-4:) Starting billing at Sun May 08 12:00:00 IST 2016 for 3
+2016-05-08 12:00:00,212 740972 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Billing trigger for Sun May 08 12:00:00 IST 2016 entity 3
+2016-05-08 12:00:00,541 741301 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) A process has to be done for entity 3
+2016-05-08 12:00:00,645 741405 WARN  [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Review is required but not present for entity 3
+2016-05-08 12:00:00,648 741408 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (DefaultQuartzScheduler_Worker-4:) Looking for table + billing_process_configuration
+2016-05-08 12:00:01,629 742389 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Generating review entity 3
+2016-05-08 12:00:01,630 742390 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Entering processEntity(entityId: 3, billingDate: 2013-08-12 00:00:00.0, periodType: 1, periodValue:1)
+2016-05-08 12:00:01,630 742390 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Loaded job launcher bean # org.springframework.batch.core.launch.support.SimpleJobLauncher@6f0421f4
+2016-05-08 12:00:01,630 742390 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Loaded job bean # FlowJob: [name=generateInvoicesJob]
+2016-05-08 12:00:02,555 743315 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) created billing process with id: 20
+2016-05-08 12:00:02,556 743316 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) Loading user ids for entityId # 3 and billingdate # 2013-08-12 00:00:00.0
+2016-05-08 12:00:02,556 743316 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) Entering loadAndStore() where entityId # 3 and billingDate # 2013-08-12 00:00:00.0
+2016-05-08 12:00:02,556 743316 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (DefaultQuartzScheduler_Worker-4:) Entered PluggableTaskManager
+2016-05-08 12:00:02,591 743351 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (DefaultQuartzScheduler_Worker-4:) total classes = 1
+2016-05-08 12:00:02,591 743351 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) PluggableTaskManager initialized
+2016-05-08 12:00:02,591 743351 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (DefaultQuartzScheduler_Worker-4:) Applying task com.sapienter.jbilling.server.process.task.BasicBillingProcessFilterTask
+2016-05-08 12:00:02,614 743374 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (DefaultQuartzScheduler_Worker-4:) Creating a new instance of com.sapienter.jbilling.server.process.task.BasicBillingProcessFilterTask
+2016-05-08 12:00:02,614 743374 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) Finding user ids and setting them to scrollable results cursor
+2016-05-08 12:00:02,859 743619 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessPartitioner] (DefaultQuartzScheduler_Worker-4:) Entering afterPropertiesSet() - EntityId # 3 , Date # 2013-08-12 00:00:00.0
+2016-05-08 12:00:02,859 743619 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (DefaultQuartzScheduler_Worker-4:) Entered PluggableTaskManager
+2016-05-08 12:00:02,859 743619 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (DefaultQuartzScheduler_Worker-4:) total classes = 1
+2016-05-08 12:00:02,859 743619 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessPartitioner] (DefaultQuartzScheduler_Worker-4:) PluggableTaskManager initialized
+2016-05-08 12:00:02,859 743619 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (DefaultQuartzScheduler_Worker-4:) Applying task com.sapienter.jbilling.server.process.task.BasicBillingProcessFilterTask
+2016-05-08 12:00:02,860 743620 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (DefaultQuartzScheduler_Worker-4:) Creating a new instance of com.sapienter.jbilling.server.process.task.BasicBillingProcessFilterTask
+2016-05-08 12:00:02,860 743620 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessPartitioner] (DefaultQuartzScheduler_Worker-4:) Finding user ids and setting them to scrollable results cursor
+2016-05-08 12:00:02,862 743622 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessPartitioner] (DefaultQuartzScheduler_Worker-4:) Leaving afterPropertiesSet() - Total # 1 ids were found for the entityId # 3
+2016-05-08 12:00:02,863 743623 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessPartitioner] (DefaultQuartzScheduler_Worker-4:) Entering partition(), where gridSize # 6
+2016-05-08 12:00:02,863 743623 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessPartitioner] (DefaultQuartzScheduler_Worker-4:) Target size for each step # 1
+2016-05-08 12:00:02,916 743676 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserReader] (taskExecutor-1:) Entering beforeStepStepExecution()
+2016-05-08 12:00:02,916 743676 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserReader] (taskExecutor-1:) Leaving beforeStepStepExecution() - Total # 1 ids were found for
+2016-05-08 12:00:03,064 743824 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserReader] (taskExecutor-1:) Entering read()
+2016-05-08 12:00:03,064 743824 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserReader] (taskExecutor-1:) Returning id # 10801 from the list of total size # 0
+2016-05-08 12:00:03,126 743886 DEBUG [com.sapienter.jbilling.batch.billing.JobContextHandler] (taskExecutor-1:) entered setStepExecution()
+2016-05-08 12:00:03,126 743886 DEBUG [com.sapienter.jbilling.batch.billing.JobContextHandler] (taskExecutor-1:) leaving setStepExecution
+2016-05-08 12:00:03,126 743886 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) Entering afterPropertiesSet()
+2016-05-08 12:00:03,240 744000 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) Finding successful user for billing process
+2016-05-08 12:00:03,273 744033 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) Calcualting isRecurring variable
+2016-05-08 12:00:03,273 744033 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) Leaving afterPropertiesSet()
+2016-05-08 12:00:03,274 744034 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ Entering process(Integer userId)
+2016-05-08 12:00:03,274 744034 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ Processing user #:10801
+2016-05-08 12:00:03,900 744660 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (taskExecutor-1:) Skipping non-customer / subaccount user 10801
+2016-05-08 12:00:03,903 744663 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) User 10801 was processed sucessfully.
+2016-05-08 12:00:03,903 744663 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ User 10801 done invoice generation.
+2016-05-08 12:00:03,904 744664 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (taskExecutor-1:) Entering addProcessRunUser()
+2016-05-08 12:00:03,957 744717 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ STATUS_SUCCEEDED
+2016-05-08 12:00:03,957 744717 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ Total invoices count from job context # 0
+2016-05-08 12:00:03,957 744717 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ Total # 0 invoices generated for user # 10801
+2016-05-08 12:00:03,957 744717 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ Leaving process(Integer userId)
+2016-05-08 12:00:03,957 744717 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserProcessor] (taskExecutor-1:) User # 10801 executed in # 0 secs
+2016-05-08 12:00:03,979 744739 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessWriter] (taskExecutor-1:) User # 10801was successfully processed
+2016-05-08 12:00:04,005 744765 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessUserReader] (taskExecutor-1:) Entering read()
+2016-05-08 12:00:04,147 744907 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentPartitioner] (DefaultQuartzScheduler_Worker-4:) Entering afterPropertiesSet() - stepExecution: StepExecution: id=3, version=1, name=emailAndPayment, status=STARTED, exitStatus=EXECUTING, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=0, rollbackCount=0, exitDescription=
+2016-05-08 12:00:04,147 744907 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentPartitioner] (DefaultQuartzScheduler_Worker-4:) Leaving afterPropertiesSet() - stepExecution: StepExecution: id=3, version=1, name=emailAndPayment, status=STARTED, exitStatus=EXECUTING, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=0, rollbackCount=0, exitDescription=, ids.size: 
+2016-05-08 12:00:04,148 744908 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentPartitioner] (DefaultQuartzScheduler_Worker-4:) Entering partition(), where gridSize # 6
+2016-05-08 12:00:04,148 744908 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentPartitioner] (DefaultQuartzScheduler_Worker-4:) Target size for each step # 1
+2016-05-08 12:00:04,179 744939 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentUserReader] (emailAndPaymentTaskExecutor-1:) Entering beforeStepStepExecution()
+2016-05-08 12:00:04,180 744940 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentUserReader] (emailAndPaymentTaskExecutor-1:) Leaving beforeStepStepExecution() - Total # 1 ids were found for
+2016-05-08 12:00:04,183 744943 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentUserReader] (emailAndPaymentTaskExecutor-1:) Entering read()
+2016-05-08 12:00:04,183 744943 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentUserReader] (emailAndPaymentTaskExecutor-1:) Returning id # 10801 from the list of total size # 0
+2016-05-08 12:00:04,199 744959 DEBUG [com.sapienter.jbilling.batch.billing.JobContextHandler] (emailAndPaymentTaskExecutor-1:) entered setStepExecution()
+2016-05-08 12:00:04,200 744960 DEBUG [com.sapienter.jbilling.batch.billing.JobContextHandler] (emailAndPaymentTaskExecutor-1:) leaving setStepExecution
+2016-05-08 12:00:04,200 744960 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentProcessor] (emailAndPaymentTaskExecutor-1:) Entering afterPropertiesSet()
+2016-05-08 12:00:04,200 744960 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentProcessor] (emailAndPaymentTaskExecutor-1:) billing process id from context: 20
+2016-05-08 12:00:04,201 744961 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentProcessor] (emailAndPaymentTaskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ Enter process(Integer userId)
+2016-05-08 12:00:04,201 744961 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentProcessor] (emailAndPaymentTaskExecutor-1:) BillingProcessId # 20 || UserId # 10801 +++ Leaving process(Integer userId)
+2016-05-08 12:00:04,201 744961 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentProcessor] (emailAndPaymentTaskExecutor-1:) User # 10801 executed in # 0 secs
+2016-05-08 12:00:04,213 744973 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentWriter] (emailAndPaymentTaskExecutor-1:) User # 10801 was successfully processed
+2016-05-08 12:00:04,217 744977 DEBUG [com.sapienter.jbilling.batch.billing.EmailAndPaymentUserReader] (emailAndPaymentTaskExecutor-1:) Entering read()
+2016-05-08 12:00:04,236 744996 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobFlowDecider] (DefaultQuartzScheduler_Worker-4:) Returning exit status of step SUCCESS
+2016-05-08 12:00:04,264 745024 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessSucceededTasklet] (DefaultQuartzScheduler_Worker-4:) Entering afterPropertiesSet()
+2016-05-08 12:00:04,270 745030 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessSucceededTasklet] (DefaultQuartzScheduler_Worker-4:) Entering execute(StepContribution, ChunkContext)
+2016-05-08 12:00:04,271 745031 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessSucceededTasklet] (DefaultQuartzScheduler_Worker-4:) billingProcessId:20 ,totalInvoices:0
+2016-05-08 12:00:04,274 745034 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Entering updateRunFinished()
+2016-05-08 12:00:04,283 745043 DEBUG [com.sapienter.jbilling.server.process.BillingProcessRunBL] (DefaultQuartzScheduler_Worker-4:) updating run 100 version 0
+2016-05-08 12:00:04,283 745043 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Leaving updateRunFinished()
+2016-05-08 12:00:04,304 745064 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) Entering afterJob()
+2016-05-08 12:00:04,304 745064 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) Getting contents from job execution context
+2016-05-08 12:00:04,304 745064 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) Data from context is: successful_users # [10801] ,failed_users # [] , billing_process_id # 20 , no_of_failed_users # 0
+2016-05-08 12:00:04,358 745118 DEBUG [com.sapienter.jbilling.batch.billing.BillingProcessJobListener] (DefaultQuartzScheduler_Worker-4:) Destroying ids object from BillingProcessUsersLoader
+2016-05-08 12:00:04,362 745122 DEBUG [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Job for entity id # 3 has finished successfully
+2016-05-08 12:00:04,536 745296 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (DefaultQuartzScheduler_Worker-4:) seding sapienter email process.new_review to spencerTHaas@email.com of entity 3
+2016-05-08 12:00:04,730 745490 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (DefaultQuartzScheduler_Worker-4:) Message: javax.mail.internet.MimeMessage@6222e921
+2016-05-08 12:00:04,730 745490 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (DefaultQuartzScheduler_Worker-4:) MessageText: Dear billing administrator (company id 3),Following the parameters you have set for the Process configuration, the system has generated a new Process Review.The Process Review is intended to give you a preview of what is going to happen in the real billing process.Please login to the system and proceed to review the invoices generated and orders processed. Note that you have to approve this review before the real process can take place. You can also disapprove the review if you find errors in the review's results. A new review will be generated within 24 hours of your disproval. Please contact support@sapienter.com if you need help to fix the review's errors.To see the Process Review: Click on the menu option 'Process', and then on 'Review'.To change your parameters: Click on the menu option 'Process', and then on 'Configuration'. There you can:         - select not to generate a review before your process take place (using the checkbox by the field 'Generate Review Report')        - select how many days before the real process the review will be generated. (the value in the 'Review Report Days') This is an automated message, if you have any comments of questions please send them to support@sapienter.com.Sapienter Automated Billing Process
+2016-05-08 12:00:04,730 745490 DEBUG [com.sapienter.jbilling.server.notification.NotificationBL] (DefaultQuartzScheduler_Worker-4:) Address: spencerTHaas@email.com
+2016-05-08 12:00:05,792 746552 ERROR [com.sapienter.jbilling.server.process.BillingProcessSessionBean] (DefaultQuartzScheduler_Worker-4:) Exception sending email to entity
+javax.mail.MessagingException: Connection error (java.net.ConnectException: Connection refused: connect)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPConnection.protocolConnect(SMTPConnection.java:161)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:165)
+	at javax.mail.Service.connect(Service.java:251)
+	at com.sapienter.jbilling.server.notification.NotificationBL.sendSapienterEmail(NotificationBL.java:1406)
+	at com.sapienter.jbilling.server.notification.NotificationBL.sendSapienterEmail(NotificationBL.java:1322)
+	at com.sapienter.jbilling.server.process.BillingProcessSessionBean.generateReview(BillingProcessSessionBean.java:170)
+	at com.sapienter.jbilling.server.process.BillingProcessSessionBean.processEntity(BillingProcessSessionBean.java:548)
+	at com.sapienter.jbilling.server.process.BillingProcessSessionBean.trigger(BillingProcessSessionBean.java:494)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy104.trigger(Unknown Source)
+	at com.sapienter.jbilling.server.billing.task.BillingProcessTask.execute(BillingProcessTask.java:67)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:286)
+	at org.apache.geronimo.javamail.util.MailConnection.getConnectedSocket(MailConnection.java:307)
+	at org.apache.geronimo.javamail.util.MailConnection.getConnection(MailConnection.java:250)
+	at org.apache.geronimo.javamail.transport.smtp.SMTPConnection.protocolConnect(SMTPConnection.java:140)
+	... 23 more
+2016-05-08 12:00:05,974 746734 INFO  [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (DefaultQuartzScheduler_Worker-4:) Ended billing at Sun May 08 12:00:05 IST 2016
+2016-05-08 12:22:18,676 2079436 INFO  [org.apache.activemq.broker.BrokerService] (ActiveMQ ShutdownHook:) ActiveMQ Message Broker (localhost, ID:SR186001-PC-56832-1462688314907-0:0) is shutting down
+2016-05-08 12:22:18,724 2079484 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property staticGormStaticApi in jbilling.Breadcrumb
+2016-05-08 12:22:18,726 2079486 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.Breadcrumb
+2016-05-08 12:22:18,727 2079487 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.Breadcrumb
+2016-05-08 12:22:18,732 2079492 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.Filter
+2016-05-08 12:22:18,736 2079496 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property staticGormStaticApi in jbilling.Filter
+2016-05-08 12:22:18,745 2079505 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.Filter
+2016-05-08 12:22:18,748 2079508 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property staticGormStaticApi in jbilling.FilterSet
+2016-05-08 12:22:18,753 2079513 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.FilterSet
+2016-05-08 12:22:18,757 2079517 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.FilterSet
+2016-05-08 12:22:18,764 2079524 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property staticGormStaticApi in jbilling.RecentItem
+2016-05-08 12:22:18,769 2079529 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.RecentItem
+2016-05-08 12:22:18,774 2079534 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.RecentItem
+2016-05-08 12:22:18,780 2079540 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property staticGormStaticApi in jbilling.Shortcut
+2016-05-08 12:22:18,785 2079545 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.Shortcut
+2016-05-08 12:22:18,790 2079550 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.Shortcut
+2016-05-08 12:22:18,796 2079556 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property staticGormStaticApi in jbilling.Tab
+2016-05-08 12:22:18,797 2079557 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.Tab
+2016-05-08 12:22:18,798 2079558 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.Tab
+2016-05-08 12:22:18,799 2079559 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property staticGormStaticApi in jbilling.TabConfiguration
+2016-05-08 12:22:18,799 2079559 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.TabConfiguration
+2016-05-08 12:22:18,801 2079561 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.TabConfiguration
+2016-05-08 12:22:18,806 2079566 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property staticGormStaticApi in jbilling.TabConfigurationTab
+2016-05-08 12:22:18,810 2079570 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormInstanceApi in jbilling.TabConfigurationTab
+2016-05-08 12:22:18,816 2079576 INFO  [org.codehaus.groovy.grails.domain.GrailsDomainClassCleaner] (Thread-13:) Clearing static property instanceGormValidationApi in jbilling.TabConfigurationTab
+2016-05-08 12:22:19,574 2080334 INFO  [org.apache.activemq.broker.TransportConnector] (ActiveMQ ShutdownHook:) Connector tcp://localhost:61616 Stopped
+2016-05-08 12:22:19,580 2080340 INFO  [org.apache.activemq.kaha.impl.KahaStore] (ActiveMQ Task:) Kaha Store using data directory activemq-data\localhost\tmp_storage
+2016-05-08 12:22:19,593 2080353 INFO  [org.apache.activemq.broker.TransportConnector] (ActiveMQ ShutdownHook:) Connector vm://localhost Stopped
+2016-05-08 12:22:19,758 2080518 INFO  [org.apache.activemq.broker.BrokerService] (ActiveMQ ShutdownHook:) ActiveMQ JMS Message Broker (localhost, ID:SR186001-PC-56832-1462688314907-0:0) stopped
+2016-05-08 12:24:22,188 0     INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 12:24:22,218 30    WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 12:24:24,211 2023  INFO  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Loading default config file: class DefaultWebXmlConfig
+2016-05-08 12:24:24,220 2032  WARN  [grails.plugin.webxml.WebxmlGrailsPlugin] (main:) Did not find application config file: WebXmlConfig
+2016-05-08 12:24:25,247 3059  INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-08 12:24:25,329 3141  INFO  [org.apache.tomcat.util.net.NioSelectorPool] (main:) Using a shared selector for servlet write/read
+2016-05-08 12:24:34,406 12218 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Using dataSource bean definition from /WEB-INF/spring/resources.groovy
+2016-05-08 12:24:34,406 12218 INFO  [grails.plugin.hibernate3.HibernatePluginSupport] (localhost-startStop-1:) Set db generation strategy to '' for datasource DEFAULT
+2016-05-08 12:24:35,252 13064 INFO  [grails.plugin.remoting.RemotingPluginHelper] (localhost-startStop-1:) Unrecognised invoker protocol: cxfjax - ignoring for this service ('MigrationService').
+2016-05-08 12:24:39,676 17488 INFO  [com.mchange.v2.log.MLog] (localhost-startStop-1:) MLog clients using log4j logging.
+2016-05-08 12:24:39,932 17744 INFO  [com.mchange.v2.c3p0.C3P0Registry] (localhost-startStop-1:) Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2016-05-08 12:24:40,328 18140 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] (localhost-startStop-1:) Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge8sh9g13puluq1om4a52|a207c19, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge8sh9g13puluq1om4a52|a207c19, idleConnectionTestPeriod -> 30, initialPoolSize -> 10, jdbcUrl -> jdbc:postgresql://localhost:5432/jbilling_test, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> /* ping */ SELECT 1, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-05-08 12:24:45,843 23655 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) System properties loaded from: C:\Users\SR186001\.grails\2.4.3\projects\EzyBillng-community-4.1.1\resources\jbilling.properties
+2016-05-08 12:24:45,845 23657 DEBUG [com.sapienter.jbilling.common.SystemProperties] (localhost-startStop-1:) Resolved jbilling resources directory to: C:\Work\BIL\GIT_REPO\billing\resources\
+2016-05-08 12:25:03,627 41439 INFO  [org.apache.activemq.broker.jmx.ManagementContext] (JMX connector:) JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2016-05-08 12:25:03,665 41477 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Successfully deleted temporary storage
+2016-05-08 12:25:03,687 41499 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) Using Persistence Adapter: AMQPersistenceAdapter(activemq-data\localhost)
+2016-05-08 12:25:03,691 41503 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) AMQStore starting using directory: activemq-data\localhost
+2016-05-08 12:25:03,732 41544 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\state
+2016-05-08 12:25:03,800 41612 INFO  [org.apache.activemq.store.amq.AMQPersistenceAdapter] (localhost-startStop-1:) Active data files: []
+2016-05-08 12:25:03,999 41811 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ 5.3.2 JMS Message Broker (localhost) is starting
+2016-05-08 12:25:04,003 41815 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) For help or more information please see: http://activemq.apache.org/
+2016-05-08 12:25:04,230 42042 INFO  [org.apache.activemq.kaha.impl.KahaStore] (localhost-startStop-1:) Kaha Store using data directory activemq-data\localhost\kr-store\data
+2016-05-08 12:25:04,356 42168 INFO  [org.apache.activemq.transport.TransportServerThreadSupport] (localhost-startStop-1:) Listening for connections at: tcp://127.0.0.1:61616
+2016-05-08 12:25:04,357 42169 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector tcp://localhost:61616 Started
+2016-05-08 12:25:04,365 42177 INFO  [org.apache.activemq.broker.TransportConnector] (localhost-startStop-1:) Connector vm://localhost Started
+2016-05-08 12:25:04,368 42180 INFO  [org.apache.activemq.broker.BrokerService] (localhost-startStop-1:) ActiveMQ JMS Message Broker (localhost, ID:SR186001-PC-57719-1462690504055-0:0) started
+2016-05-08 12:25:05,485 43297 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Performing a full reload
+2016-05-08 12:25:05,943 43755 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Loading resource declarations...
+2016-05-08 12:25:05,945 43757 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known modules...
+2016-05-08 12:25:05,946 43758 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Forgetting all known resources...
+2016-05-08 12:25:07,556 45368 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css served by /jquery-ui/themes/jbilling/jquery-ui-1.10.4.custom.css (delegate: none)
+2016-05-08 12:25:08,233 46045 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/all.css served by /css/all.css (delegate: none)
+2016-05-08 12:25:09,264 47076 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/lt7.css served by /css/lt7.css (delegate: none)
+2016-05-08 12:25:09,719 47531 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/ict.css served by /css/ict.css (delegate: none)
+2016-05-08 12:25:09,779 47591 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca.min.css served by /css/alpaca.min.css (delegate: none)
+2016-05-08 12:25:09,840 47652 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/alpaca-jqueryui.min.css served by /css/alpaca-jqueryui.min.css (delegate: none)
+2016-05-08 12:25:09,861 47673 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/evol.colorpicker.css served by /css/evol.colorpicker.css (delegate: none)
+2016-05-08 12:25:09,886 47698 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor munging ResourceMeta for URI /css/jstree/invoice-template-tree.css served by /css/jstree/invoice-template-tree.css (delegate: none)
+2016-05-08 12:25:10,096 47908 DEBUG [grails.app.resourceMappers.org.grails.plugin.resource.CSSPreprocessorResourceMapper] (localhost-startStop-1:) CSS Preprocessor skipping ResourceMeta for URI /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css served by /bundle-bundle_itg_head.css (delegate: none) because it is aggregated (already processed each file in it)
+2016-05-08 12:25:10,377 48189 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/down.png
+2016-05-08 12:25:10,406 48218 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/down.png]
+2016-05-08 12:25:10,407 48219 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/down.png
+2016-05-08 12:25:10,616 48428 ERROR [org.grails.plugin.resource.ResourceMeta] (localhost-startStop-1:) While processing /bundle-bundle_itg_head.css, /css/ict.css, /css/alpaca.min.css, /css/alpaca-jqueryui.min.css, /css/evol.colorpicker.css, /css/jstree/invoice-template-tree.css, a resource was required but not found: /css/images/left.png
+2016-05-08 12:25:10,617 48429 WARN  [org.grails.plugin.resource.util.ResourceMetaStore] (localhost-startStop-1:) Cannot locate resource [/css/images/left.png]
+2016-05-08 12:25:10,618 48430 WARN  [org.grails.plugin.resource.mapper.cssrewriter] (localhost-startStop-1:) Cannot resolve CSS resource, leaving link as is: resource:/css/images/left.png
+2016-05-08 12:25:10,817 48629 INFO  [org.grails.plugin.resource.ResourceProcessor] (localhost-startStop-1:) Finished full reload
+2016-05-08 12:25:15,377 53189 INFO  [org.codehaus.groovy.grails.web.context.GrailsConfigUtils] (localhost-startStop-1:) [GrailsContextLoader] Grails application loaded.
+2016-05-08 12:25:16,015 53827 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Using default implementation for ThreadExecutor
+2016-05-08 12:25:16,023 53835 INFO  [org.quartz.simpl.SimpleThreadPool] (localhost-startStop-1:) Job execution threads will use class loader of thread: localhost-startStop-1
+2016-05-08 12:25:16,046 53858 INFO  [org.quartz.core.SchedulerSignalerImpl] (localhost-startStop-1:) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-05-08 12:25:16,048 53860 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Quartz Scheduler v.2.2.1 created.
+2016-05-08 12:25:16,051 53863 INFO  [org.quartz.simpl.RAMJobStore] (localhost-startStop-1:) RAMJobStore initialized.
+2016-05-08 12:25:16,055 53867 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-05-08 12:25:16,070 53882 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-05-08 12:25:16,075 53887 INFO  [org.quartz.impl.StdSchedulerFactory] (localhost-startStop-1:) Quartz scheduler version: 2.2.1
+2016-05-08 12:25:16,281 54093 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 12:25:16,379 54191 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 2
+2016-05-08 12:25:16,379 54191 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 2 scheduled tasks for entity 3
+2016-05-08 12:25:16,379 54191 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 12:25:16,379 54191 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 12:25:16,409 54221 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process from jbilling.properties ...
+2016-05-08 12:25:16,409 54221 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process from jbilling.properties ...
+2016-05-08 12:25:16,409 54221 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [billing process: , entity id 3, taskId 6119]
+2016-05-08 12:25:16,409 54221 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 12:25:16,428 54240 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 12:25:16,429 54241 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 12:25:16,429 54241 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 12:25:16,429 54241 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [ageing process: , entity id 3, taskId 6120]
+2016-05-08 12:25:16,429 54241 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 12:25:16,431 54243 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 0
+2016-05-08 12:25:16,431 54243 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 0 scheduled tasks for entity 2
+2016-05-08 12:25:16,431 54243 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 12:25:16,433 54245 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 0
+2016-05-08 12:25:16,433 54245 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 0 scheduled tasks for entity 4
+2016-05-08 12:25:16,433 54245 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Entered PluggableTaskManager
+2016-05-08 12:25:16,448 54260 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) total classes = 4
+2016-05-08 12:25:16,449 54261 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Processing 4 scheduled tasks for entity 1
+2016-05-08 12:25:16,449 54261 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 12:25:16,449 54261 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.billing.task.BillingProcessTask
+2016-05-08 12:25:16,453 54265 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process using plug-in parameters ...
+2016-05-08 12:25:16,453 54265 DEBUG [com.sapienter.jbilling.server.billing.task.BillingProcessTask] (localhost-startStop-1:) Scheduling billing process using plug-in parameters ...
+2016-05-08 12:25:16,453 54265 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [billing process: , entity id 1, taskId 6050]
+2016-05-08 12:25:16,453 54265 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 12:25:16,453 54265 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.process.task.AgeingProcessTask
+2016-05-08 12:25:16,453 54265 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 12:25:16,453 54265 DEBUG [com.sapienter.jbilling.server.process.task.AgeingProcessTask] (localhost-startStop-1:) Scheduling ageing process from jbilling.properties ...
+2016-05-08 12:25:16,454 54266 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [ageing process: , entity id 1, taskId 6061]
+2016-05-08 12:25:16,454 54266 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.pluggableTask.FileCleanupTask
+2016-05-08 12:25:16,474 54286 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.pluggableTask.FileCleanupTask
+2016-05-08 12:25:16,483 54295 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [FileCleanupTask]
+2016-05-08 12:25:16,483 54295 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Applying task com.sapienter.jbilling.server.order.task.OrderChangeUpdateTask
+2016-05-08 12:25:16,493 54305 DEBUG [com.sapienter.jbilling.server.pluggableTask.admin.PluggableTaskManager] (localhost-startStop-1:) Creating a new instance of com.sapienter.jbilling.server.order.task.OrderChangeUpdateTask
+2016-05-08 12:25:16,494 54306 DEBUG [com.sapienter.jbilling.server.util.SchedulerBootstrapHelper] (localhost-startStop-1:) Scheduled: [order change update task , entity id 1, taskId 6125]
+2016-05-08 12:25:16,507 54319 INFO  [org.quartz.core.QuartzScheduler] (localhost-startStop-1:) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-08 12:25:17,821 55633 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (localhost-startStop-1:) Creating Service {http://jbilling/}MigrationServiceService from class jbilling.MigrationService
+2016-05-08 12:25:19,715 57527 INFO  [org.apache.cxf.endpoint.ServerImpl] (localhost-startStop-1:) Setting the server's publish address to be /migration
+2016-05-08 12:25:19,758 57570 INFO  [org.apache.coyote.http11.Http11NioProtocol] (main:) Starting ProtocolHandler ["http-nio-8080"]
+2016-05-08 12:26:22,515 120327 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-4:) Request is to process authentication
+2016-05-08 12:26:22,886 120698 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-4:) User admin;4 authentication failed!
+2016-05-08 12:26:22,886 120698 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-4:) Authentication request failed: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+2016-05-08 12:26:22,886 120698 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-4:) Updated SecurityContextHolder to contain null Authentication
+2016-05-08 12:26:22,887 120699 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-4:) Delegating to authentication failure handler grails.plugin.springsecurity.web.authentication.AjaxAwareAuthenticationFailureHandler@22089724
+2016-05-08 12:26:28,118 125930 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-10:) Request is to process authentication
+2016-05-08 12:26:28,671 126483 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-10:) Looking for table + role
+2016-05-08 12:26:29,086 126898 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) Looking for preference 39, for entity 1 and table entity
+2016-05-08 12:26:29,221 127033 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-10:) preferenceValue : |3|
+2016-05-08 12:26:29,221 127033 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-10:) Looking for table + base_user
+2016-05-08 12:26:29,400 127212 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-10:) User admin;1 authentication failed!
+2016-05-08 12:26:29,400 127212 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-10:) Authentication request failed: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+2016-05-08 12:26:29,400 127212 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-10:) Updated SecurityContextHolder to contain null Authentication
+2016-05-08 12:26:29,400 127212 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-10:) Delegating to authentication failure handler grails.plugin.springsecurity.web.authentication.AjaxAwareAuthenticationFailureHandler@22089724
+2016-05-08 12:26:45,951 143763 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-6:) Request is to process authentication
+2016-05-08 12:26:46,253 144065 DEBUG [com.sapienter.jbilling.client.authentication.util.SecuritySession] (http-nio-8080-exec-6:) Setting locale for Spring contexts: en_CA
+2016-05-08 12:26:46,253 144065 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-6:) Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@45b80643: Principal: CompanyUserDetails{id=1, username='admin;1', mainRoleId=2, companyId=1, currencyId=1, languageId=1, enabled=true, accountExpired=false, credentialsExpired=false, accountLocked=false}; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@21a2c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 3B980E8EBF7EE2D25A10C89546CDBDE7; Granted Authorities: ROLE_SUPER_USER
+2016-05-08 12:26:47,834 145646 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:26:47,835 145647 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:26:47,835 145647 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-05-08 12:26:48,866 146678 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:26:48,866 146678 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:26:48,866 146678 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-05-08 12:26:49,699 147511 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:26:49,699 147511 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:26:49,699 147511 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-05-08 12:26:49,762 147574 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:26:49,762 147574 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:26:49,762 147574 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-05-08 12:26:59,160 156972 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-5:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 12:27:03,146 160958 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-5:) Looking for table + user_status
+2016-05-08 12:30:59,860 397672 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-3:) Request is to process authentication
+2016-05-08 12:31:00,145 397957 DEBUG [com.sapienter.jbilling.client.authentication.util.SecuritySession] (http-nio-8080-exec-3:) Setting locale for Spring contexts: en_CA
+2016-05-08 12:31:00,146 397958 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-3:) Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@6ac2c46e: Principal: CompanyUserDetails{id=1, username='admin;1', mainRoleId=2, companyId=1, currencyId=1, languageId=1, enabled=true, accountExpired=false, credentialsExpired=false, accountLocked=false}; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@0: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 60FE1B971FED6E9957B9C5B26AD24E07; Granted Authorities: ROLE_SUPER_USER
+2016-05-08 12:31:00,270 398082 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:31:00,270 398082 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:31:00,270 398082 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 12:31:00,338 398150 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:31:00,338 398150 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:31:00,338 398150 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 12:31:00,340 398152 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:31:00,340 398152 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:31:00,340 398152 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 12:31:00,341 398153 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:31:00,341 398153 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:31:00,341 398153 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 12:31:00,429 398241 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-6:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 12:31:12,655 410467 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:31:12,655 410467 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:31:12,655 410467 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 12:31:13,935 411747 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:31:13,936 411748 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:31:13,936 411748 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 12:31:14,662 412474 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:31:14,662 412474 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:31:14,662 412474 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 12:31:14,730 412542 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 12:31:14,730 412542 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 12:31:14,730 412542 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-6:) preferenceValue : |0|
+2016-05-08 12:31:17,671 415483 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10802 is 0
+2016-05-08 12:31:18,147 415959 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10790 is 0
+2016-05-08 12:31:18,179 415991 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10781 is 0
+2016-05-08 12:31:18,215 416027 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10780 is 0
+2016-05-08 12:31:18,234 416046 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10779 is 0
+2016-05-08 12:31:18,256 416068 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10778 is 0
+2016-05-08 12:31:18,273 416085 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10777 is 0
+2016-05-08 12:31:18,294 416106 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10776 is 0
+2016-05-08 12:31:18,309 416121 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10775 is 0
+2016-05-08 12:31:18,324 416136 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-6:) Total Amount Owed for User 10774 is 0
+2016-05-08 12:31:19,364 417176 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-6:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 19:45:18,210 26456022 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-7:) Request is to process authentication
+2016-05-08 19:45:18,895 26456707 DEBUG [com.sapienter.jbilling.client.authentication.util.SecuritySession] (http-nio-8080-exec-7:) Setting locale for Spring contexts: en_CA
+2016-05-08 19:45:18,895 26456707 DEBUG [com.sapienter.jbilling.client.authentication.CompanyUserAuthenticationFilter] (http-nio-8080-exec-7:) Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@31750711: Principal: CompanyUserDetails{id=1, username='admin;1', mainRoleId=2, companyId=1, currencyId=1, languageId=1, enabled=true, accountExpired=false, credentialsExpired=false, accountLocked=false}; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_SUPER_USER
+2016-05-08 19:45:19,951 26457763 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 19:45:19,952 26457764 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:45:19,952 26457764 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |0|
+2016-05-08 19:45:20,227 26458039 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 19:45:20,227 26458039 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:45:20,227 26458039 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |0|
+2016-05-08 19:45:20,264 26458076 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 19:45:20,264 26458076 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:45:20,264 26458076 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |0|
+2016-05-08 19:45:20,277 26458089 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 19:45:20,277 26458089 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:45:20,277 26458089 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-9:) preferenceValue : |0|
+2016-05-08 19:45:20,875 26458687 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10802 is 0
+2016-05-08 19:45:20,962 26458774 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10790 is 0
+2016-05-08 19:45:20,988 26458800 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10781 is 0
+2016-05-08 19:45:21,007 26458819 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10780 is 0
+2016-05-08 19:45:21,026 26458838 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10779 is 0
+2016-05-08 19:45:21,048 26458860 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10778 is 0
+2016-05-08 19:45:21,073 26458885 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10777 is 0
+2016-05-08 19:45:21,089 26458901 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10776 is 0
+2016-05-08 19:45:21,128 26458940 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10775 is 0
+2016-05-08 19:45:21,166 26458978 DEBUG [com.sapienter.jbilling.server.invoice.db.InvoiceDAS] (http-nio-8080-exec-9:) Total Amount Owed for User 10774 is 0
+2016-05-08 19:45:22,052 26459864 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-9:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 19:45:41,705 26479517 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 39, for entity 1 and table entity
+2016-05-08 19:45:41,706 26479518 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:45:41,706 26479518 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |3|
+2016-05-08 19:45:41,706 26479518 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Looking for preference 68, for entity 1 and table entity
+2016-05-08 19:45:41,706 26479518 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:45:41,706 26479518 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-5:) preferenceValue : |0|
+2016-05-08 19:45:51,816 26489628 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-5:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 19:45:58,631 26496443 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 19:45:58,631 26496443 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:45:58,631 26496443 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |0|
+2016-05-08 19:45:58,848 26496660 DEBUG [grails.app.services.jbilling.BreadcrumbService] (http-nio-8080-exec-4:) Deleted: 5 breadcrumbs for user id: 1
+2016-05-08 19:45:58,935 26496747 DEBUG [grails.app.controllers.jbilling.PaymentController] (http-nio-8080-exec-4:) ### partner:null
+2016-05-08 19:45:58,935 26496747 DEBUG [grails.app.controllers.jbilling.PaymentController] (http-nio-8080-exec-4:) ### customersForUser: []
+2016-05-08 19:46:00,578 26498390 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 19:46:00,578 26498390 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:46:00,578 26498390 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |0|
+2016-05-08 19:46:01,879 26499691 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 19:46:01,879 26499691 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:46:01,879 26499691 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |0|
+2016-05-08 19:46:01,992 26499804 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Looking for preference 63, for entity 1 and table entity
+2016-05-08 19:46:01,992 26499804 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) Preferences Cache hit for preferenceCache entity:1
+2016-05-08 19:46:01,992 26499804 DEBUG [com.sapienter.jbilling.server.util.PreferenceBL] (http-nio-8080-exec-4:) preferenceValue : |0|
+2016-05-08 19:46:07,589 26505401 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + payment_method
+2016-05-08 19:46:07,903 26505715 DEBUG [com.sapienter.jbilling.server.util.db.JbillingTableDAS] (http-nio-8080-exec-4:) Looking for table + payment_result
+2016-05-08 19:46:15,800 26513612 ERROR [grails.app.controllers.ErrorsController] (http-nio-8080-exec-2:) 404 Page Not Found.
+2016-05-08 19:46:16,388 26514200 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-4:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 19:46:19,554 26517366 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-2:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 19:46:34,386 26532198 ERROR [grails.app.controllers.ErrorsController] (http-nio-8080-exec-3:) 404 Page Not Found.
+2016-05-08 19:46:34,427 26532239 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-3:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 19:46:36,886 26534698 ERROR [grails.app.controllers.ErrorsController] (http-nio-8080-exec-9:) 404 Page Not Found.
+2016-05-08 19:46:36,931 26534743 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-9:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
+2016-05-08 19:46:39,781 26537593 ERROR [grails.app.controllers.ErrorsController] (http-nio-8080-exec-3:) 404 Page Not Found.
+2016-05-08 19:46:39,820 26537632 WARN  [grails.app.taglib.org.grails.plugin.resource.ResourceTagLib] (http-nio-8080-exec-3:) Invocation of <r:resource> for a resource that apparently doesn't exist: /EzyBillng/manual/index.html
